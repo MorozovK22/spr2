@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навчальний заклад</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо до нашого Навчального закладу</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#description">Опис</a></li>
+            <li><a href="#education">Напрями навчання</a></li>
+            <li><a href="#location">Місцзнаходження</a></li>
+            <li><a href="#benefits">Переваги</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="description" class="description">
+            <h2>Про наш навчальний заклад</h2>
+            <p>
+                Наш Навчальний заклад є сучасним центром освіти, що надає якісні послуги з навчання та розвитку учнів.
+            </p>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Напрями навчання</h2>
+            <p>
+                - Академічні дисципліни<br>
+                - Творчі спеціальності<br>
+                - Професійні навички
+            </p>
+        </section>
+
+        <section id="benefits" class="benefits">
+            <h2>Переваги нашого закладу</h2>
+            <ul>
+                <li>Сучасні методи навчання</li>
+                <li>Професійні викладачі</li>
+                <li>Можливість онлайн-навчання</li>
+            </ul>
+        </section>
+
+        <a href="#" class="contact-btn" id="open-modal">Зв'язатися з нами</a>
+
+        <section id="location" class="location">
+            <h2>Місцзнаходження</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462.0373641435883!2d30.751273768801788!3d46.451851764486825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633dd7316f3c1%3A0x6c26eb6298143baa!2z0J7QsdGJ0LXQvtCx0YDQsNC30L7QstCw0YLQtdC70YzQvdCw0Y8g0YjQutC-0LvQsCDihJY2Mg!5e1!3m2!1sru!2sua!4v1734607568499!5m2!1sru!2sua"></iframe>
+        </section>
+
+        <div class="modal" id="contact-modal">
+            <div class="modal-content">
+                <span class="close-btn" id="close-modal">&times;</span>
+                <h2>Зв'язатися з нами</h2>
+                <form>
+                    <input type="text" placeholder="Ваше ім'я" required><br><br>
+                    <input type="email" placeholder="Ваш Email" required><br><br>
+                    <textarea placeholder="Ваше повідомлення" required></textarea><br><br>
+                    <button type="submit">Надіслати</button>
+                </form>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
